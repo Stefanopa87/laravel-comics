@@ -1,0 +1,23 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header .nav_top {
+  height: 40px;
+  background-color: #0575DD;
+}
+
+header .nav_top a {
+  color: white;
+  margin-left: 20px;
+}
+
+header .jumbo_img {
+  height: 350px;
+  width: 100%;
+  background-position: top;
+  background-size: cover;
+}
+
