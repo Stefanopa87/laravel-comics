@@ -60,13 +60,8 @@
   </div>
 </nav>
 
-{{-- <div>    
-<img src="{{ asset('/storage/assets/jumbotron.jpg') }}" alt="">
-</div> --}}
-
-<div class="jumbo_img" style="background-image: url({{ asset('/storage/assets/jumbotron.jpg') }})">
-
-
+<div class="jumbo_img"
+style="background-image: url({{ asset('/storage/assets/jumbotron.jpg') }})">
 </div>
 
    

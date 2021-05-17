@@ -21,3 +21,39 @@ header .jumbo_img {
   background-size: cover;
 }
 
+main .cards_area {
+  height: 750px;
+  background-color: #222222;
+}
+
+main .cards_area .card {
+  width: 100%;
+  padding: 1%;
+  background-color: inherit;
+  border: none;
+  margin-top: 40px;
+}
+
+main .cards_area .card p {
+  color: white;
+}
+
+main .sponsors_area {
+  height: 100px;
+  background-color: #0575DD;
+  display: flex;
+  align-items: center;
+}
+
+main .sponsors_area a {
+  color: white;
+  align-self: center;
+}
+
+footer .footer_img {
+  height: 350px;
+  width: 100%;
+  background-position: top;
+  background-size: cover;
+}
+

@@ -23,3 +23,47 @@ header{
         background-size: cover;
     }
 }
+
+main{
+    .cards_area{
+        height: 750px;
+        background-color: #222222;
+    
+        .card{
+            width: 100%;
+            padding: 1%;
+            background-color: inherit;
+            border: none;
+            margin-top: 40px;
+    
+            p{
+                color: white;
+            }
+        }
+    }
+
+    .sponsors_area{
+
+        height: 100px;
+        background-color: #0575DD;
+        display: flex;
+        align-items: center;
+        a{
+            color: white;
+            align-self: center;
+
+        }
+    
+    }
+}
+
+footer{
+    .footer_img{
+        height: 350px;
+        width: 100%;
+    
+        background-position: top;
+        background-size: cover;
+    }
+
+}

@@ -1,4 +1,6 @@
 <footer>
 
-    <h1>fine 2021</h1>
+   <div class="footer_img"
+style="background-image: url({{ asset('/storage/assets/footer-bg.jpg') }})">
+</div>
 </footer>
