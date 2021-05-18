@@ -2,6 +2,11 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+
+    // generali
+    .my_clr_green{
+        color: #BAFD9C;
+    }
 }
 
 header{
@@ -16,7 +21,7 @@ header{
     }
 
     .jumbo_img{
-        height: 350px;
+        height: 430px;
         width: 100%;
 
         background-position: top;
@@ -25,16 +30,23 @@ header{
 }
 
 main{
+    // home
     .cards_area{
         height: 750px;
         background-color: #222222;
     
         .card{
-            width: 100%;
-            padding: 1%;
             background-color: inherit;
             border: none;
             margin-top: 40px;
+            width: 100%;
+            padding: 1%;
+
+            a{
+                img{
+                    width: 100%;
+                }
+            }
     
             p{
                 color: white;
@@ -55,15 +67,77 @@ main{
         }
     
     }
+
+    // elem
+    .blu_section{
+        height: 100px;
+        background-color: #0575DD;
+    }
+
+    .col-lg-9{
+        h1{
+            text-transform: uppercase;
+        }
+
+        .price_area{
+            height: 80px;
+            background-color: #55BA59;
+            border-bottom: solid 1px black;
+
+            .price_section{
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+
+            }
+
+            .available_section{
+                border-left: solid 1px black;
+                display: flex;
+                align-items: center;
+            }
+        }
+    }
+    .col-lg-3{
+
+        .adv_section{
+             width: 100%;
+             height: 100%;
+             background-size: contain;
+             background-repeat: no-repeat;
+        }
+    }
+    .info_area{
+        background-color: #F6F6F6;
+        border-top: solid 1px grey;
+    }
+
+
+
 }
 
 footer{
     .footer_img{
-        height: 350px;
         width: 100%;
     
         background-position: top;
         background-size: cover;
+
+        li{
+            list-style: none;
+        }
+        .logo_section{
+            height: 100%;
+            width: 100%;
+            background-size: contain;
+            background-repeat: no-repeat;
+        }
+    }
+
+    .footer_bottom{
+        height: 100px;
+        width: 100%;
+        background-color: #303030;
     }
 
 }

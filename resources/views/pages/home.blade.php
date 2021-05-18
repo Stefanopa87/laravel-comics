@@ -8,8 +8,10 @@
                     <div class="col-lg-2">
     
                         <div class="card">
-                            <img src="{{$elem['thumb']}}" alt="">
-                            <p>{{$elem['title']}}</p>
+
+                            <a href="{{route('elem', $loop-> index)}}"><img src="{{$elem['thumb']}}" alt=""></a>
+                            
+                            <p>{{$elem['series']}}</p>
                         </div>
                             
                     </div>
